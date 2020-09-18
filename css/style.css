@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  background-color: rgb(216, 241, 232);
+}
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/Banner1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  -webkit-text-stroke: 2px rgb(12, 63, 38);
+}
+
+/*pendiente funcionar*/
+header .textos {
+  margin-top: 200px;
+}
+
+header .titulo {
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+
+}
+
+header .subtitulo {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+/* 
+header .boton{
+}
+*/
+.acercaDe .boton {
+  display: inline-block;
+  width: 128px;
+  padding: 10px;
+  font-weight: 300;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px;
+    overflow: hidden;
+}
+
+.tituloDesarrollo {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.slogan {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.parrafos {
+  margin-bottom: 10px;
+  font-weight: 300;
+  text-align: justify;
+  color: rgb(27, 26, 26);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.galeria {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.galeria2 {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.imagenes {
+  width: 20%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.imagenes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sesgoArriba {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 30vh 80vw 0 0;
+  border-style: solid;
+  border-color: rgb(216, 241, 232) transparent transparent transparent;
+}
+
+.sesgoAbajo {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 0 0 30vh 80vw;
+  border-style: solid;
+  border-color: transparent transparent rgb(216, 241, 232) transparent;
+}
+
+.cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cards img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.card{
+    margin: 20px;
+    width: 30%;
+    height: 220px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(60, 88, 84)
+}
+
+footer{
+    background-color: rgb(125, 131, 129);
+}
+
+/*++++++++++++++pagina html y CSS++++++++++++++++++*/
+.p2{
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: justify;
+  color: rgb(136, 20, 20);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.tituloH{
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: auto;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  padding: 10px 0 10px 0;
+}
+
+.sesgoArribaH {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 10vh 0 0 99.99vw;
+  border-style: solid;
+  border-color: rgb(216, 241, 232) transparent transparent transparent;
+}
+
+.sesgoAbajoH {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-width: 0 98.79vw 10vh 0;
+  border-style: solid;
+  border-color: transparent transparent rgb(216, 241, 232) transparent;
+}
+
+.imagenh {
+  width: 1000px;
+  height: 200px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.imagenhtml{
+  overflow: hidden;
+  position: relative;
+  width: 134.9%;
+  height: 200px;
+}
+
+.imagenhtml img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagenh2 {
+  border: 3px solid rgb(56, 180, 118);
+  border-style: dotted;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 500px;
+  height: 280px;
+}
+.imagenC{
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.imagenC img{
+  border: 3px solid rgb(56, 180, 118);
+  border-style: double;
+  border-radius: 30px;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 600px;
+  height: 350px;
+}
+
+.espacios2{
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 80%;
+  max-width: 1000px;
+  padding: 0px 60px 20px 60px ;
+}
+
+.tituloH {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(12, 63, 38);
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.color{
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(175, 212, 195);
+}
+
+.imagenl{
+  width: 180px;
+  height: 160px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  background: rgb(56, 180, 118) url("gradient.gif") bottom left repeat-x;
+  color: blanchedalmond;
+}
+td, th {
+  background: rgb(216, 241, 232);
+  color: black;
+}
+
+/*+++++++++++++++++pagina html++++++++++++++++++++++++++*/
+
+/*
+.footer{
+}
+*/
+
+/** responsive**/
+
+@media screen and (max-width: 900px) {
+    .card {
+    width: 50%; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .textos {
+        margin-top: 200px;
+    }
+
+    header .titulo {
+      font-size: 70px;
+    }
+
+    .imagenes {
+      flex-grow: 1;
+    }
+
+    .card {
+      width: 50%;
+    }
+
+    .imagenes img{
+      width: 20%;
+      height: 20%;
+    }
+    .cards img{
+      width: 80px;
+      height: 80px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+  header .textos {
+    margin-top: 100px;
+  }
+
+  header .titulo {
+    font-size: 60px;
+  }
+
+  header .subtitulo {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  header .slogan {
+    font-size: 10px;
+  } 
+  table{
+    width: 50px;
+    height: 300px;
+  }
+  .imagenes img{
+    width: 10%;
+    height: 10%;
+  }
+  .cards img{
+    width: 50px;
+    height: 50px;
+  }
+  .imagenl{
+    width: 10px;
+    height: 10px;
+  }
+
+}
+
+
